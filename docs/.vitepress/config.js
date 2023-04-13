@@ -6,11 +6,12 @@ export default {
     siteTitle: '@lovezsh/weekly',
     nav: [
       { text: '周刊', link: '/guide/index' },
+      { text: 'Github', link: 'https://github.com/lovezsh/weekly/' },
     ],
     sidebar: [
       { text: '作者说', link: '/guide/index' },
       {
-        text: '历史周刊',
+        text: '发布历史',
         items: [
           { text: '#10 一款极简开源的输入法', link: '/posts/10' },
           { text: '#9 openai 封禁了一批账号', link: '/posts/9' },
