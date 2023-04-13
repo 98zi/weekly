@@ -32,7 +32,7 @@ export default {
     lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present zoer98'
+      copyright: 'Copyright © 2023-present lovezsh'
     }
   }
 }
