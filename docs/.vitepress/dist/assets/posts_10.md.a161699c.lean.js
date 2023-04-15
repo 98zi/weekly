@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as r,N as t}from"./chunks/framework.0799945b.js";const _=JSON.parse('{"title":"10. 一款极简开源的输入法","description":"","frontmatter":{},"headers":[],"relativePath":"posts/10.md","lastUpdated":1681534767000}'),o={name:"posts/10.md"},i=t("",21),s=[i];function l(n,h,m,c,p,d){return r(),a("div",null,s)}const b=e(o,[["render",l]]);export{_ as __pageData,b as default};
