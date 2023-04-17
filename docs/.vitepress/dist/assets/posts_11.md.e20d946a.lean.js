@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as e,N as o}from"./chunks/framework.0799945b.js";const b=JSON.parse('{"title":"11. 追求技术实用主义","description":"","frontmatter":{},"headers":[],"relativePath":"posts/11.md","lastUpdated":1681723903000}'),r={name:"posts/11.md"},h=o("",8),s=[h];function i(n,l,_,c,d,p){return e(),t("div",null,s)}const m=a(r,[["render",i]]);export{b as __pageData,m as default};
