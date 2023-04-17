@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t,N as o}from"./chunks/framework.0799945b.js";const f=JSON.parse('{"title":"7.一个Notion风格的编辑器","description":"","frontmatter":{},"headers":[],"relativePath":"posts/7.md","lastUpdated":1681723875000}'),c={name:"posts/7.md"},s=o("",13),r=[s];function l(n,p,i,d,h,m){return t(),e("div",null,r)}const _=a(c,[["render",l]]);export{f as __pageData,_ as default};
