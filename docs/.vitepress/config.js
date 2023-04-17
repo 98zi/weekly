@@ -13,6 +13,7 @@ export default {
       {
         text: '发布历史',
         items: [
+          { text: '#11 追求技术实用主义', link: '/posts/11' },
           { text: '#10 一款极简开源的输入法', link: '/posts/10' },
           { text: '#9 openai 封禁了一批账号', link: '/posts/9' },
           { text: '#8 一个ChatGPT应用平台', link: '/posts/8' },
