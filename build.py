@@ -30,8 +30,6 @@ if __name__ == "__main__":
           modified = fetch_ci_time('/docs/posts/' + filepath)
 
           recentMd= '* [{}]({}) - {}\n'.format(title, url, modified)
-          recentfile.write(recentMd)
         readmefile.write(readmeMd)
 
-  recentfile.close()
   readmefile.close()
