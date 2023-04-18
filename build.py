@@ -10,7 +10,7 @@ def fetch_ci_time(filePath):
 
 if __name__ == "__main__":
   readmefile=open('README.md','w')
-  readmefile.write("## [@lovezsh/weekly](https://github.com/lovezsh/weekly)\n\n网站: [https://weekly.zsh.im/](https://weekly.zsh.im/)\n\n> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/lovezsh/weekly/issues/)。\n")
+  readmefile.write("## weekly\n\n网站: [https://weekly.zsh.im/](https://weekly.zsh.im/)\n\n> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/lovezsh/weekly/issues/)。\n")
 
   for root, dirs, filenames in os.walk('./docs/posts'):
     filenames = sorted(filenames, key=lambda x:float(re.findall("(\d+)",x)[0]), reverse=True)
