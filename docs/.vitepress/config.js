@@ -9,7 +9,7 @@ export default {
       { text: 'Github', link: 'https://github.com/lovezsh/weekly/' },
     ],
     sidebar: [
-      { text: '作者说', link: '/guide/index' },
+      { text: '快速开始', link: '/guide/index' },
       {
         text: '发布历史',
         items: [
