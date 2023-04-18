@@ -6,8 +6,8 @@ import datetime
 
 def fetch_ci_time(filePath):
     entries = httpx.get("https://api.github.com/repos/lovezsh/weekly/commits?path=" + filePath + "&page=1&per_page=1")
-    ciTime= entries.json()[0]["commit"]["committer"].split("T")[0]
-    return ciTime
+    # ciTime= entries.json()[0]["commit"]["committer"].split("T")[0]
+    return entries
     # return datetime.datetime.strptime(ciTime,"%Y-%m-%d")
 
 if __name__ == "__main__":
