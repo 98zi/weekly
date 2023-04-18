@@ -2,9 +2,10 @@
 
 网站: [https://weekly.zsh.im/](https://weekly.zsh.im/)
 
-> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/lovezsh/weekly/issues/) 你的好东西。* [第 11 期 - 追求技术实用主义](https://weekly.zsh.im/posts/11-追求技术实用主义)
+> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/lovezsh/weekly/issues/)。
+* [第 11 期 - 追求技术实用主义](https://weekly.zsh.im/posts/11-追求技术实用主义)
 * [第 10 期 - 一款极简开源的输入法](https://weekly.zsh.im/posts/10-一款极简开源的输入法)
-* [第 9 期 - openai 封禁了一批账号](https://weekly.zsh.im/posts/9-openai 封禁了一批账号)
+* [第 9 期 - openai封禁了一批账号](https://weekly.zsh.im/posts/9-openai封禁了一批账号)
 * [第 8 期 - 一个ChatGPT应用平台](https://weekly.zsh.im/posts/8-一个ChatGPT应用平台)
 * [第 7 期 - 一个Notion风格的编辑器](https://weekly.zsh.im/posts/7-一个Notion风格的编辑器)
 * [第 6 期 - 使用Notion搭建网站的方案](https://weekly.zsh.im/posts/6-使用Notion搭建网站的方案)
