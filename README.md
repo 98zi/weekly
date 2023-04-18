@@ -1,4 +1,4 @@
-## weekly
+## [@lovezsh/weekly](https://github.com/lovezsh/weekly)
 
 网站: [https://weekly.zsh.im/](https://weekly.zsh.im/)
 
