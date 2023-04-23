@@ -6,6 +6,7 @@ export default {
     siteTitle: '@lovezsh/weekly',
     nav: [
       { text: '周刊', link: '/guide/index' },
+      { text: '投稿', link: 'https://github.com/lovezsh/weekly/issues' },
       { text: 'Github', link: 'https://github.com/lovezsh/weekly/' },
     ],
     sidebar: [
