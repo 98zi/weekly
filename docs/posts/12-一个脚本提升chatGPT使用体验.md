@@ -20,3 +20,8 @@ https://github.com/xcanwin/KeepChatGPT
 - 支持自由调整频率
 
 ![image](https://cdn.staticaly.com/gh/lovezsh/pic-cdn@main/20230423/image.61ghueixpu00.webp)
+
+### 2.vue-chrome-extension-boilerplate
+https://github.com/mubaidr/vue-chrome-extension-boilerplate
+
+基于 Vue.js + Webpack 的 Chrome 扩展模板，开发chrome扩展非常方便，并且可以自动打包压压缩。
