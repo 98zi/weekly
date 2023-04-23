@@ -3,7 +3,7 @@
 网站: [https://weekly.zsh.im/](https://weekly.zsh.im/)
 
 > 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/lovezsh/weekly/issues/)。
-* [第 12 期 - 一个脚本提升chatGPT使用体验](https://weekly.zsh.im/posts/12-一个脚本提升chatGPT使用体验)
+* [第 12 期 - 提升chatGPT使用体验](https://weekly.zsh.im/posts/12-提升chatGPT使用体验)
 * [第 11 期 - 追求技术实用主义](https://weekly.zsh.im/posts/11-追求技术实用主义)
 * [第 10 期 - 一款极简开源的输入法](https://weekly.zsh.im/posts/10-一款极简开源的输入法)
 * [第 9 期 - openai封禁了一批账号](https://weekly.zsh.im/posts/9-openai封禁了一批账号)
