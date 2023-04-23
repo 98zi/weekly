@@ -2,11 +2,15 @@ export default {
   title: 'weekly',
   dest: '/dist',
   lastUpdated: true,
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
   themeConfig: {
     siteTitle: '@lovezsh/weekly',
     nav: [
       { text: '周刊', link: '/guide/index' },
       { text: '投稿', link: 'https://github.com/lovezsh/weekly/issues' },
+      { text: '博客', link: 'https://zburu.com' },
       { text: 'Github', link: 'https://github.com/lovezsh/weekly/' },
     ],
     sidebar: [
