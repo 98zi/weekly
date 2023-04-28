@@ -25,3 +25,10 @@ https://github.com/xcanwin/KeepChatGPT
 https://github.com/mubaidr/vue-chrome-extension-boilerplate
 
 基于 Vue.js + Webpack 的 Chrome 扩展模板，开发chrome扩展非常方便，并且可以自动打包压压缩。
+
+### 3.STDF 组件库
+https://stdf.design/#/
+
+基于 Svelte 与 Tailwind 的移动 web 组件库。
+
+![image](https://imgbed.netlify.app/images/image.5mil4j7gewo0.webp)
