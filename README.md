@@ -3,6 +3,7 @@
 网站: [https://weekly.zsh.im/](https://weekly.zsh.im/)
 
 > 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/lovezsh/weekly/issues/)。
+* [第 14 期 - Github工具](https://weekly.zsh.im/posts/14-Github工具)
 * [第 13 期 - 热爱生活和未来](https://weekly.zsh.im/posts/13-热爱生活和未来)
 * [第 12 期 - 提升chatGPT使用体验](https://weekly.zsh.im/posts/12-提升chatGPT使用体验)
 * [第 11 期 - 追求技术实用主义](https://weekly.zsh.im/posts/11-追求技术实用主义)
