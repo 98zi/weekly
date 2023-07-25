@@ -18,6 +18,7 @@ export default {
       {
         text: '发布历史',
         items: [
+          { text: '#15', link: '/posts/15' },
           { text: '#14 Github工具', link: '/posts/14-Github工具' },
           { text: '#13 热爱生活和未来', link: '/posts/13-热爱生活和未来' },
           { text: '#12 提升chatGPT使用体验', link: '/posts/12-提升chatGPT使用体验' },
