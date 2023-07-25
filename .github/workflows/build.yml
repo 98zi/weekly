@@ -35,7 +35,7 @@ jobs:
       run: |-
         git diff
         git config --global user.email "shuxhan@163.com"
-        git config --global user.name "imzsh"
+        git config --global user.name "zishume"
         git pull
         git add .
         git commit -m "Updated content" || exit 0
