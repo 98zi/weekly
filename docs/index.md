@@ -12,7 +12,7 @@ hero:
       link: /guide/index.md
     - theme: alt
       text: GitHub
-      link: https://github.com/lovezsh/weekly
+      link: https://github.com/zishume/weekly
 
 features:
   - icon: ❤️

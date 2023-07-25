@@ -6,12 +6,12 @@ export default {
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
-    siteTitle: '@lovezsh/weekly',
+    siteTitle: '@zishume/weekly',
     nav: [
       { text: '周刊', link: '/guide/index' },
-      { text: '投稿', link: 'https://github.com/lovezsh/weekly/issues' },
+      { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
       { text: '博客', link: 'https://zburu.com' },
-      { text: 'Github', link: 'https://github.com/lovezsh/weekly/' },
+      { text: 'Github', link: 'https://github.com/zishume/weekly/' },
     ],
     sidebar: [
       { text: '快速开始', link: '/guide/index' },
@@ -37,7 +37,7 @@ export default {
       },
     ],
     editLink: {
-      pattern: 'https://github.com/lovezsh/weekly/edit/main/docs/:path',
+      pattern: 'https://github.com/zishume/weekly/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     lastUpdatedText: '最后更新',
