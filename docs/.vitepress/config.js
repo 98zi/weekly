@@ -10,7 +10,7 @@ export default {
     nav: [
       { text: '周刊', link: '/guide/index' },
       { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
-      { text: '博客', link: 'https://zishu.com' },
+      { text: '博客', link: 'https://zishu.me' },
       { text: 'Github', link: 'https://github.com/zishume/weekly' },
     ],
     sidebar: [
