@@ -3,6 +3,7 @@
 网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)
 
 > 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/zishume/weekly/issues/)。
+* [第 16 期 - 好用的图床管理工具](https://weekly.zishu.me/posts/16-好用的图床管理工具)
 * [第 15 期 - 提高生产力的脚本工具](https://weekly.zishu.me/posts/15-提高生产力的脚本工具)
 * [第 14 期 - Github工具](https://weekly.zishu.me/posts/14-Github工具)
 * [第 13 期 - 热爱生活和未来](https://weekly.zishu.me/posts/13-热爱生活和未来)
