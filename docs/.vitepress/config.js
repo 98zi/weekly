@@ -1,6 +1,6 @@
 export default {
   title: 'weekly',
-  dest: '/dist',
+  dist: '/dist',
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
@@ -10,14 +10,15 @@ export default {
     nav: [
       { text: '周刊', link: '/guide/index' },
       { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
-      { text: '博客', link: 'https://zburu.com' },
-      { text: 'Github', link: 'https://github.com/zishume/weekly/' },
+      { text: '博客', link: 'https://zishu.com' },
+      { text: 'Github', link: 'https://github.com/zishume/weekly' },
     ],
     sidebar: [
       { text: '快速开始', link: '/guide/index' },
       {
         text: '发布历史',
         items: [
+          { text: '#16 好用的图床管理工具', link: '/posts/16-好用的图床管理工具' },
           { text: '#15 提高生产力的脚本工具', link: '/posts/15-提高生产力的脚本工具' },
           { text: '#14 Github工具', link: '/posts/14-Github工具' },
           { text: '#13 热爱生活和未来', link: '/posts/13-热爱生活和未来' },
@@ -43,7 +44,30 @@ export default {
     lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present lovezsh'
+      copyright: 'Copyright © 2023-present 子舒'
+    },
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

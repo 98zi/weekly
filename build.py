@@ -22,7 +22,6 @@ if __name__ == "__main__":
         url   = 'https://weekly.zishu.me/posts/' + oldTitle
         title = '第 ' + oldTitle.split('-')[0] + ' 期 - ' + oldTitle.split('-')[1]
         readmeMd= '* [{}]({})\n'.format(title, url)
-        dateList = ["2022-10-10","2022-09-26","2022-09-12","2022-09-05","2022-08-29"]
         num = int(oldTitle.split('-')[0])
         if index < 5 :
           modified = fetch_ci_time('/docs/posts/' + filepath)
