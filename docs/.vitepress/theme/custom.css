@@ -1,0 +1,14 @@
+/* .vitepress/theme/custom.css */
+:root {
+  --vp-c-brand-1: #646cff;
+  --vp-c-brand-2: #747bff;
+}
+
+.flex p{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex p img {
+  margin-right: 5px;
+}
