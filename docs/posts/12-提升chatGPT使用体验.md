@@ -19,7 +19,7 @@ https://github.com/xcanwin/KeepChatGPT
 - 兼容移动端
 - 支持自由调整频率
 
-![image](https://cdn.staticaly.com/gh/lovezsh/pic-cdn@main/images/20230423/image.61ghueixpu00.webp)
+![image](https://cdn.staticaly.com/gh/zishume/imgurl@main/images/20230423/image.61ghueixpu00.webp)
 
 ### 2.vue-chrome-extension-boilerplate
 https://github.com/mubaidr/vue-chrome-extension-boilerplate
