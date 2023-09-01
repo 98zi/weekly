@@ -18,7 +18,7 @@ export default {
       {
         text: '发布历史',
         items: [
-          { text: '#17 音频播客推荐', link: '/posts/17-音频播客推荐' },
+          { text: '#17 音频播客新闻日志等推荐', link: '/posts/17-音频播客新闻日志等推荐' },
           { text: '#16 好用的图床管理工具', link: '/posts/16-好用的图床管理工具' },
           { text: '#15 提高生产力的脚本工具', link: '/posts/15-提高生产力的脚本工具' },
           { text: '#14 Github工具', link: '/posts/14-Github工具' },
