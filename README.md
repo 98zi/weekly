@@ -1,5 +1,7 @@
 ## weekly
 
+![GitHub license](https://img.shields.io/github/license/zishume/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/zishume/weekly) ![GitHub issues](https://img.shields.io/github/issues/zishume/weekly) ![GitHub forks](https://img.shields.io/github/forks/zishume/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/zishume/weekly) ![GitHub followers](https://img.shields.io/github/followers/zishume)
+
 网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)
 
 > 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/zishume/weekly/issues/)。
