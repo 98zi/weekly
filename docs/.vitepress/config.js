@@ -9,12 +9,22 @@ export default {
     siteTitle: '@zishume/weekly',
     nav: [
       { text: '周刊', link: '/guide/index' },
-      { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
-      { text: '博客', link: 'https://zishu.me' },
+      {
+        text: '周边',
+        items: [
+          { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
+          { text: '博客', link: 'https://zishu.me' },
+        ]
+      },
       { text: 'Github', link: 'https://github.com/zishume/weekly' },
     ],
     sidebar: [
-      { text: '快速开始', link: '/guide/index' },
+      {
+        text: '快速开始',
+        items: [
+          { text: '项目介绍', link: '/guide/index' },
+        ]
+      },
       {
         text: '发布历史',
         items: [
