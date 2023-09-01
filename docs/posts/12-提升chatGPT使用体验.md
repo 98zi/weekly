@@ -31,4 +31,4 @@ https://stdf.design/#/
 
 基于 Svelte 与 Tailwind 的移动 web 组件库。
 
-![image](https://imgbed.netlify.app/images/image.5mil4j7gewo0.webp)
+![image](https://imgurl.zishu.me/images/image.5mil4j7gewo0.webp)
