@@ -2,7 +2,13 @@
 
 <div class="flex">
 
-![GitHub license](https://img.shields.io/github/license/zishume/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/zishume/weekly) ![GitHub issues](https://img.shields.io/github/issues/zishume/weekly) ![GitHub forks](https://img.shields.io/github/forks/zishume/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/zishume/weekly) ![GitHub followers](https://img.shields.io/github/followers/zishume)
+![GitHub license](https://img.shields.io/github/license/zishume/weekly) 
+![GitHub Repo stars](https://img.shields.io/github/stars/zishume/weekly) 
+![GitHub issues](https://img.shields.io/github/issues/zishume/weekly) 
+![GitHub forks](https://img.shields.io/github/forks/zishume/weekly) 
+![GitHub commit](https://img.shields.io/github/commit-activity/t/zishume/weekly) 
+![GitHub followers](https://img.shields.io/github/followers/zishume) 
+![Discord](https://img.shields.io/discord/1126519222172925952)
 
 </div>
 
