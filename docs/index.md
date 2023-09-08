@@ -4,7 +4,7 @@ layout: home
 hero:
   name: weekly
   text: 一个周刊，记录有趣的软件和网站。
-  tagline: 喵喵喵~~
+  tagline: A weekly magazine that records interesting software and websites.
 
   actions:
     - theme: brand

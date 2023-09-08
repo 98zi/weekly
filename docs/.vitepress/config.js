@@ -6,7 +6,7 @@ export default {
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
-    siteTitle: '@zishume/weekly',
+    siteTitle: 'weekly',
     nav: [
       { text: '周刊', link: '/guide/index' },
       {

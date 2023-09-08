@@ -16,7 +16,7 @@ jobs:
         run: npm run build
       - name: Commit changes
         run: |
-          git config --global user.email "shuxhan@163.com"
+          git config --global user.email "anghunk@gmail.com"
           git config --global user.name "zishume"
           git pull
           git add .
