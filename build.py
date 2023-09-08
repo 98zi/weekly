@@ -12,19 +12,19 @@ if __name__ == "__main__":
   readmefile=open('README.md','w')
   readmefile.write("## weekly\n\n![GitHub license](https://img.shields.io/github/license/zishume/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/zishume/weekly) ![GitHub issues](https://img.shields.io/github/issues/zishume/weekly) ![GitHub forks](https://img.shields.io/github/forks/zishume/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/zishume/weekly) ![GitHub followers](https://img.shields.io/github/followers/zishume)\n\n网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)\n\n> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/zishume/weekly/issues/)。\n")
 
-  for root, dirs, filenames in os.walk('./docs/posts'):
+  for root, dirs, filenames in os.walk('./docs/guide/posts'):
     filenames = sorted(filenames, key=lambda x:float(re.findall("(\d+)",x)[0]), reverse=True)
 
   for index, name in enumerate(filenames):
       if name.endswith('.md'):
         filepath = urllib.parse.quote(name)
         oldTitle = name.split('.md')[0]
-        url   = 'https://weekly.zishu.me/posts/' + oldTitle
+        url   = 'https://weekly.zishu.me/guide/posts/' + oldTitle
         title = '第 ' + oldTitle.split('-')[0] + ' 期 - ' + oldTitle.split('-')[1]
         readmeMd= '* [{}]({})\n'.format(title, url)
         num = int(oldTitle.split('-')[0])
         if index < 5 :
-          modified = fetch_ci_time('/docs/posts/' + filepath)
+          modified = fetch_ci_time('/docs/guide/posts/' + filepath)
 
           recentMd= '* [{}]({}) - {}\n'.format(title, url, modified)
         readmefile.write(readmeMd)
