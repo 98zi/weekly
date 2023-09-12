@@ -1,15 +1,15 @@
 export default {
-  title: 'weekly',
+  title: 'Weekly和Wiki',
   dist: '/dist',
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
-    siteTitle: 'weekly',
+    siteTitle: 'weekly / wiki',
     nav: [
       { text: '周刊', link: '/guide/index' },
-      { text: 'Wiki', link: '/wiki/index' },
+      { text: 'Wiki 知识库', link: '/wiki/index' },
       {
         text: '周边',
         items: [
@@ -18,6 +18,7 @@ export default {
         ]
       },
       { text: 'Github', link: 'https://github.com/zishume/weekly' },
+      { text: 'Contributing', link: 'https://github.com/zishume/weekly/blob/main/contributing.md' },
     ],
     sidebar: {
       '/guide/': [
@@ -59,9 +60,33 @@ export default {
         },
         {
           text: '目录',
+          collapsed: true,
           items: [
             { text: 'docker', link: '/wiki/posts/docker' },
             { text: 'scss', link: '/wiki/posts/scss' },
+            { text: '点击复制功能', link: '/wiki/posts/点击复制功能' },
+            { text: '二级导航手风琴', link: '/wiki/posts/二级导航手风琴' },
+            { text: '计算时间差', link: '/wiki/posts/计算时间差' },
+            { text: '浏览器', link: '/wiki/posts/浏览器' },
+            { text: '生成随机颜色', link: '/wiki/posts/生成随机颜色' },
+            { text: '使用正则检测邮箱格式', link: '/wiki/posts/使用正则检测邮箱格式' },
+            { text: '图片高度与宽度保持一致', link: '/wiki/posts/图片高度与宽度保持一致' },
+            { text: '图片滚动放大缩小拖拽', link: '/wiki/posts/图片滚动放大缩小拖拽' },
+            { text: '图片生成canvas图', link: '/wiki/posts/图片生成canvas图' },
+            { text: '原生事件', link: '/wiki/posts/原生事件' },
+            { text: '自定义鼠标右键', link: '/wiki/posts/自定义鼠标右键' },
+            { text: 'css常用代码', link: '/wiki/posts/css常用代码' },
+            { text: 'console', link: '/wiki/posts/console' },
+            { text: 'el-table', link: '/wiki/posts/el-table' },
+            { text: 'ios', link: '/wiki/posts/ios' },
+            { text: 'isMob-isIos', link: '/wiki/posts/isMob-isIos' },
+            { text: 'jq相关方法', link: '/wiki/posts/jq相关方法' },
+            { text: 'js添加类名', link: '/wiki/posts/js添加类名' },
+            { text: 'memos部署', link: '/wiki/posts/memos部署' },
+            { text: 'swiper问题', link: '/wiki/posts/swiper问题' },
+            { text: 'toast弹窗配置', link: '/wiki/posts/toast弹窗配置' },
+            { text: 'vanilla-lazyload使用方法', link: '/wiki/posts/vanilla-lazyload使用方法' },
+            { text: 'vue常用代码', link: '/wiki/posts/vue常用代码' },
           ]
         },
       ]

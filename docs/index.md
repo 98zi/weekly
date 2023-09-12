@@ -2,17 +2,17 @@
 layout: home
 
 hero:
-  name: weekly
+  name: weekly / wiki
   text: 一个周刊，记录有趣的软件和网站。
-  tagline: A weekly magazine that records interesting software and websites.
+  tagline: 并且存储了一些代码资源，点击 Wiki 即可搜索。
 
   actions:
     - theme: brand
-      text: 开始阅读
+      text: 阅读周刊
       link: /guide/index.md
     - theme: alt
-      text: GitHub
-      link: https://github.com/zishume/weekly
+      text: 搜索Wiki
+      link: /wiki/index.md
 
 features:
   - icon: ❤️

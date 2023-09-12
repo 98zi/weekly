@@ -1,7 +1,7 @@
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-c-brand-1: #646cff;
-  --vp-c-brand-2: #747bff;
+  --vp-c-brand: #646cff;
+  --vp-c-brand-dark: #6e74ea;
 }
 
 .flex p{
@@ -11,4 +11,8 @@
 
 .flex p img {
   margin-right: 5px;
+}
+
+html {
+  overflow-y: scroll;
 }
