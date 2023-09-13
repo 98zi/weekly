@@ -5,6 +5,7 @@
 网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)
 
 > 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/zishume/weekly/issues/)。
+* [第 18 期 - 钱塘夜色](https://weekly.zishu.me/guide/posts/18-钱塘夜色)
 * [第 17 期 - 音频播客新闻日志等推荐](https://weekly.zishu.me/guide/posts/17-音频播客新闻日志等推荐)
 * [第 16 期 - 好用的图床管理工具](https://weekly.zishu.me/guide/posts/16-好用的图床管理工具)
 * [第 15 期 - 提高生产力的脚本工具](https://weekly.zishu.me/guide/posts/15-提高生产力的脚本工具)
