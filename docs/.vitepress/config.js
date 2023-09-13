@@ -1,5 +1,5 @@
 export default {
-  title: 'Weekly和Wiki',
+  title: 'Weekly',
   dist: '/dist',
   lastUpdated: true,
   head: [
@@ -31,6 +31,7 @@ export default {
         {
           text: '发布历史',
           items: [
+            { text: '#18 钱塘夜色', link: '/guide/posts/18-钱塘夜色' },
             { text: '#17 音频播客新闻日志等推荐', link: '/guide/posts/17-音频播客新闻日志等推荐' },
             { text: '#16 好用的图床管理工具', link: '/guide/posts/16-好用的图床管理工具' },
             { text: '#15 提高生产力的脚本工具', link: '/guide/posts/15-提高生产力的脚本工具' },
