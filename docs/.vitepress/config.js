@@ -30,6 +30,7 @@ export default {
         },
         {
           text: '发布历史',
+          collapsed: false,
           items: [
             { text: '#18 钱塘夜色', link: '/guide/posts/18-钱塘夜色' },
             { text: '#17 音频播客新闻日志等推荐', link: '/guide/posts/17-音频播客新闻日志等推荐' },
@@ -63,6 +64,7 @@ export default {
           text: '目录',
           collapsed: true,
           items: [
+            { text: 'rimraf', link: '/wiki/posts/rimraf' },
             { text: 'docker', link: '/wiki/posts/docker' },
             { text: 'scss', link: '/wiki/posts/scss' },
             { text: '点击复制功能', link: '/wiki/posts/点击复制功能' },

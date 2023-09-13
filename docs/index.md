@@ -17,13 +17,13 @@ hero:
 features:
   - icon: ❤️
     title: 分享生活
-    details: 
+    details: share life
   - icon: 😎
     title: 分享有趣
-    details: 
+    details: Share interesting
   - icon: 👾
     title: 分享技术
-    details: 
+    details: Share technology
 
 ---
 

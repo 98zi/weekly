@@ -1,10 +1,11 @@
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-c-brand: #646cff;
-  --vp-c-brand-dark: #6e74ea;
+  --vp-c-brand: #348ba0;
+  --vp-c-brand-dark: #348ba0;
+  --vp-button-brand-active-bg: #348ba0;
 }
 
-.flex p{
+.flex p {
   display: flex;
   flex-wrap: wrap;
 }
