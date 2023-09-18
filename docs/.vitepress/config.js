@@ -64,6 +64,7 @@ export default {
           text: '目录',
           collapsed: true,
           items: [
+            { text: '正则', link: '/wiki/posts/正则' },
             { text: 'rimraf', link: '/wiki/posts/rimraf' },
             { text: 'docker', link: '/wiki/posts/docker' },
             { text: 'scss', link: '/wiki/posts/scss' },
