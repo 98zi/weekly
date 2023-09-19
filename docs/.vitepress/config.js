@@ -32,6 +32,7 @@ export default {
           text: '发布历史',
           collapsed: false,
           items: [
+            { text: '#19 九堡大桥', link: '/guide/posts/19-九堡大桥' },
             { text: '#18 钱塘夜色', link: '/guide/posts/18-钱塘夜色' },
             { text: '#17 音频播客新闻日志等推荐', link: '/guide/posts/17-音频播客新闻日志等推荐' },
             { text: '#16 好用的图床管理工具', link: '/guide/posts/16-好用的图床管理工具' },
