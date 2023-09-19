@@ -15,10 +15,10 @@ export default {
         items: [
           { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
           { text: '博客', link: 'https://zishu.me' },
+          { text: '贡献', link: 'https://github.com/zishume/weekly/blob/main/contributing.md' },
         ]
       },
       { text: 'Github', link: 'https://github.com/zishume/weekly' },
-      { text: 'Contributing', link: 'https://github.com/zishume/weekly/blob/main/contributing.md' },
     ],
     sidebar: {
       '/guide/': [
@@ -65,6 +65,7 @@ export default {
           text: '目录',
           collapsed: true,
           items: [
+            { text: '网址收藏', link: '/wiki/posts/网址收藏' },
             { text: '正则', link: '/wiki/posts/正则' },
             { text: 'rimraf', link: '/wiki/posts/rimraf' },
             { text: 'docker', link: '/wiki/posts/docker' },
@@ -103,7 +104,7 @@ export default {
     lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2023-present 子舒'
+      copyright: 'Copyright © 2022 - 2023'
     },
     search: {
       provider: 'local',
