@@ -65,6 +65,8 @@ export default {
           text: '目录',
           collapsed: true,
           items: [
+            { text: 'dist-zip压缩程序', link: '/wiki/posts/dist-zip' },
+            { text: 'chrome117版本隐藏所有标签按钮', link: '/wiki/posts/chrome117版本隐藏所有标签按钮' },
             { text: 'class类', link: '/wiki/posts/class类' },
             { text: '网址收藏', link: '/wiki/posts/网址收藏' },
             { text: '正则', link: '/wiki/posts/正则' },
