@@ -65,6 +65,7 @@ export default {
           text: '目录',
           collapsed: true,
           items: [
+            { text: 'class类', link: '/wiki/posts/class类' },
             { text: '网址收藏', link: '/wiki/posts/网址收藏' },
             { text: '正则', link: '/wiki/posts/正则' },
             { text: 'rimraf', link: '/wiki/posts/rimraf' },
