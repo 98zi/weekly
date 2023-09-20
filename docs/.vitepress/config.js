@@ -13,12 +13,12 @@ export default {
       {
         text: '周边',
         items: [
-          { text: '投稿', link: 'https://github.com/zishume/weekly/issues' },
+          { text: '投稿', link: 'https://github.com/98zi/weekly/issues' },
           { text: '博客', link: 'https://zishu.me' },
-          { text: '贡献', link: 'https://github.com/zishume/weekly/blob/main/contributing.md' },
+          { text: '贡献', link: 'https://github.com/98zi/weekly/blob/main/contributing.md' },
         ]
       },
-      { text: 'Github', link: 'https://github.com/zishume/weekly' },
+      { text: 'Github', link: 'https://github.com/98zi/weekly' },
     ],
     sidebar: {
       '/guide/': [
@@ -101,7 +101,7 @@ export default {
       ]
     },
     editLink: {
-      pattern: 'https://github.com/zishume/weekly/edit/main/docs/:path',
+      pattern: 'https://github.com/98zi/weekly/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     lastUpdatedText: '最后更新',

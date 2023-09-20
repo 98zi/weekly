@@ -1,10 +1,10 @@
 ## weekly
 
-![GitHub license](https://img.shields.io/github/license/zishume/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/zishume/weekly) ![GitHub issues](https://img.shields.io/github/issues/zishume/weekly) ![GitHub forks](https://img.shields.io/github/forks/zishume/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/zishume/weekly) ![GitHub followers](https://img.shields.io/github/followers/zishume)
+![GitHub license](https://img.shields.io/github/license/98zi/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/98zi/weekly) ![GitHub issues](https://img.shields.io/github/issues/98zi/weekly) ![GitHub forks](https://img.shields.io/github/forks/98zi/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/98zi/weekly) ![GitHub followers](https://img.shields.io/github/followers/98zi)
 
 网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)
 
-> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/zishume/weekly/issues/)。
+> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/98zi/weekly/issues/)。
 * [第 19 期 - 九堡大桥](https://weekly.zishu.me/guide/posts/19-九堡大桥)
 * [第 18 期 - 钱塘夜色](https://weekly.zishu.me/guide/posts/18-钱塘夜色)
 * [第 17 期 - 音频播客新闻日志等推荐](https://weekly.zishu.me/guide/posts/17-音频播客新闻日志等推荐)

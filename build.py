@@ -5,12 +5,12 @@ import urllib.parse
 import datetime
 
 def fetch_ci_time(filePath):
-    entries = httpx.get("https://api.github.com/repos/zishume/weekly/commits?path=" + filePath + "&page=1&per_page=1")
+    entries = httpx.get("https://api.github.com/repos/98zi/weekly/commits?path=" + filePath + "&page=1&per_page=1")
     return entries
 
 if __name__ == "__main__":
   readmefile=open('README.md','w')
-  readmefile.write("## weekly\n\n![GitHub license](https://img.shields.io/github/license/zishume/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/zishume/weekly) ![GitHub issues](https://img.shields.io/github/issues/zishume/weekly) ![GitHub forks](https://img.shields.io/github/forks/zishume/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/zishume/weekly) ![GitHub followers](https://img.shields.io/github/followers/zishume)\n\n网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)\n\n> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/zishume/weekly/issues/)。\n")
+  readmefile.write("## weekly\n\n![GitHub license](https://img.shields.io/github/license/98zi/weekly) ![GitHub Repo stars](https://img.shields.io/github/stars/98zi/weekly) ![GitHub issues](https://img.shields.io/github/issues/98zi/weekly) ![GitHub forks](https://img.shields.io/github/forks/98zi/weekly) ![GitHub commit](https://img.shields.io/github/commit-activity/t/98zi/weekly) ![GitHub followers](https://img.shields.io/github/followers/98zi)\n\n网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)\n\n> 一个周刊，记录有趣的软件和网站。欢迎 [投稿推荐](https://github.com/98zi/weekly/issues/)。\n")
 
   for root, dirs, filenames in os.walk('./docs/guide/posts'):
     filenames = sorted(filenames, key=lambda x:float(re.findall("(\d+)",x)[0]), reverse=True)

@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/zishume/weekly",
+  "repository": "https://github.com/98zi/weekly",
   "homepage": "https://weekly.zishu.me",
-  "author": "zishume",
+  "author": "98zi",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
