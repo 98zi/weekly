@@ -1,10 +1,10 @@
-# memos 部署
+# Memos 托管
 
 ---
 
 GitHub：https://github.com/usememos/memos
 
-使用0.10.0版本最佳.
+使用 `0.10.0` 版本最佳.
 
 使用 docker 部署，数据文件映射在 /data/memos/ 下。
 

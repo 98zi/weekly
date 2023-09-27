@@ -1,7 +1,6 @@
 export default {
   title: '不如吃茶去',
   dist: '/dist',
-  lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
@@ -92,7 +91,6 @@ export default {
             { text: 'isMob-isIos', link: '/wiki/posts/isMob-isIos' },
             { text: 'jq相关方法', link: '/wiki/posts/jq相关方法' },
             { text: 'js添加类名', link: '/wiki/posts/js添加类名' },
-            { text: 'memos部署', link: '/wiki/posts/memos部署' },
             { text: 'swiper问题', link: '/wiki/posts/swiper问题' },
             { text: 'toast弹窗配置', link: '/wiki/posts/toast弹窗配置' },
             { text: 'vanilla-lazyload使用方法', link: '/wiki/posts/vanilla-lazyload使用方法' },
@@ -101,14 +99,7 @@ export default {
         },
       ],
       '/docs/': [
-        {
-          text: '指令',
-          collapsed: false,
-          items: [
-            { text: 'Docker', link: '/docs/docker' },
-            { text: 'pm2', link: '/docs/pm2' },
-          ]
-        },
+        { text: '文档', link: '/docs/index' },
         {
           text: 'Vue',
           collapsed: false,
@@ -117,12 +108,29 @@ export default {
             { text: 'VitePress 文档', link: '/docs/vue/vitepress' },
           ]
         },
+        {
+          text: 'Docker',
+          collapsed: false,
+          items: [
+            { text: 'Docker 指令', link: '/docs/docker/index' },
+            { text: 'Memos 托管', link: '/docs/docker/memos' },
+          ]
+        },
+        {
+          text: 'Node',
+          collapsed: false,
+          items: [
+            { text: 'nvm', link: '/docs/node/nvm' },
+            { text: 'pm2', link: '/docs/node/pm2' },
+          ]
+        },
       ]
     },
     editLink: {
       pattern: 'https://github.com/98zi/weekly/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
+    lastUpdated: false,
     lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
