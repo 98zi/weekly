@@ -1,14 +1,15 @@
 export default {
-  title: 'Weekly',
+  title: 'Weekly📖',
   dist: '/dist',
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
-    siteTitle: 'weekly / wiki',
+    siteTitle: 'Weekly 📖',
     nav: [
       { text: '周刊', link: '/guide/index' },
+      { text: '指令/配置', link: '/instruction/index' },
       { text: 'Wiki 知识库', link: '/wiki/index' },
       {
         text: '周边',
@@ -72,7 +73,6 @@ export default {
             { text: '网址收藏', link: '/wiki/posts/网址收藏' },
             { text: '正则', link: '/wiki/posts/正则' },
             { text: 'rimraf', link: '/wiki/posts/rimraf' },
-            { text: 'docker', link: '/wiki/posts/docker' },
             { text: 'scss', link: '/wiki/posts/scss' },
             { text: '点击复制功能', link: '/wiki/posts/点击复制功能' },
             { text: '二级导航手风琴', link: '/wiki/posts/二级导航手风琴' },
@@ -99,6 +99,21 @@ export default {
             { text: 'vue常用代码', link: '/wiki/posts/vue常用代码' },
           ]
         },
+      ],
+      '/instruction/': [
+        {
+          text: '指令',
+          items: [
+            { text: 'Docker指令', link: '/instruction/docker' },
+            { text: 'pm2', link: '/instruction/pm2' },
+          ]
+        },
+        {
+          text: 'Vue',
+          items: [
+            { text: 'VitePress文档', link: '/instruction/vue/vitepress' },
+          ]
+        },
       ]
     },
     editLink: {
@@ -108,7 +123,7 @@ export default {
     lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022 - 2023'
+      copyright: 'Copyright © 2020 - 2023'
     },
     search: {
       provider: 'local',
