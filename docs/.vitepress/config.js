@@ -1,12 +1,12 @@
 export default {
-  title: 'Weekly📖',
+  title: '不如吃茶去',
   dist: '/dist',
   lastUpdated: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
   themeConfig: {
-    siteTitle: 'Weekly 📖',
+    siteTitle: '不如吃茶去💡',
     nav: [
       { text: '周刊', link: '/guide/index' },
       { text: '文档', link: '/docs/index' },
@@ -113,7 +113,8 @@ export default {
           text: 'Vue',
           collapsed: false,
           items: [
-            { text: 'VitePress文档', link: '/docs/vue/vitepress' },
+            { text: 'vue 相关资源', link: '/docs/vue/index' },
+            { text: 'VitePress 文档', link: '/docs/vue/vitepress' },
           ]
         },
       ]
