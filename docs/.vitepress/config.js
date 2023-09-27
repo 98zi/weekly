@@ -9,7 +9,7 @@ export default {
     siteTitle: 'Weekly 📖',
     nav: [
       { text: '周刊', link: '/guide/index' },
-      { text: '指令/配置', link: '/instruction/index' },
+      { text: '文档', link: '/docs/index' },
       { text: 'Wiki 知识库', link: '/wiki/index' },
       {
         text: '周边',
@@ -60,7 +60,7 @@ export default {
         {
           text: '快速开始',
           items: [
-            { text: '开始wiki', link: '/wiki/index' },
+            { text: '介绍', link: '/wiki/index' },
           ]
         },
         {
@@ -100,18 +100,20 @@ export default {
           ]
         },
       ],
-      '/instruction/': [
+      '/docs/': [
         {
           text: '指令',
+          collapsed: false,
           items: [
-            { text: 'Docker指令', link: '/instruction/docker' },
-            { text: 'pm2', link: '/instruction/pm2' },
+            { text: 'Docker', link: '/docs/docker' },
+            { text: 'pm2', link: '/docs/pm2' },
           ]
         },
         {
           text: 'Vue',
+          collapsed: false,
           items: [
-            { text: 'VitePress文档', link: '/instruction/vue/vitepress' },
+            { text: 'VitePress文档', link: '/docs/vue/vitepress' },
           ]
         },
       ]

@@ -6,14 +6,18 @@ hero:
   text: 一个周刊，记录有趣的软件和网站。
   tagline: 并且存储了一些代码资源，点击 Wiki 即可搜索。
   image:
-    src: https://vitepress.dev/vitepress-logo-large.webp
+    # src: https://vitepress.dev/vitepress-logo-large.webp
+    src: https://imgurl.zishu.me/author.png
     alt: weekly
   actions:
     - theme: brand
       text: 阅读周刊
       link: /guide/index.md
+    - theme: brand
+      text: Docs 文档
+      link: /docs/index.md
     - theme: alt
-      text: 搜索Wiki
+      text: 搜索 Wiki
       link: /wiki/index.md
 
 features:
@@ -32,6 +36,10 @@ features:
 <style>
 .VPHero .text {
   font-size: 18px;
+}
+
+.VPImage {
+  border-radius: 50%;
 }
 
 :root {
