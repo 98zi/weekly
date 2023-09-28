@@ -71,7 +71,6 @@ export default {
             { text: 'class类', link: '/wiki/posts/class类' },
             { text: '网址收藏', link: '/wiki/posts/网址收藏' },
             { text: '正则', link: '/wiki/posts/正则' },
-            { text: 'rimraf', link: '/wiki/posts/rimraf' },
             { text: 'scss', link: '/wiki/posts/scss' },
             { text: '点击复制功能', link: '/wiki/posts/点击复制功能' },
             { text: '二级导航手风琴', link: '/wiki/posts/二级导航手风琴' },
@@ -122,12 +121,13 @@ export default {
           items: [
             { text: 'nvm', link: '/docs/node/nvm' },
             { text: 'pm2', link: '/docs/node/pm2' },
+            { text: 'rimraf', link: '/docs/node/rimraf' },
           ]
         },
       ]
     },
     editLink: {
-      pattern: 'https://github.com/98zi/weekly/edit/main/docs/:path',
+      pattern: 'https://github.com/98zi/weekly/blob/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     lastUpdated: false,
