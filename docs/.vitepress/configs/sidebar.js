@@ -143,7 +143,8 @@ function Leetcode() {
       text: '题目',
       collapsed: false,
       items: [
-        { text: '1.合并两个有序数组', link: '/leetcode/2023-09-28' },
+        { text: '1.合并两个有序数组', link: '/leetcode/1' },
+        { text: '2.移除元素', link: '/leetcode/2' },
       ]
     },
   ]
