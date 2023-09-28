@@ -4,12 +4,15 @@ layout: home
 hero:
   name: 不如吃茶去
   text:  周刊，学习笔记等，记录有趣的软件和网站。
-  tagline: weekly / note / wiki
+  tagline: blog / weekly / note / wiki
   image:
     # src: https://vitepress.dev/vitepress-logo-large.webp
     src: https://imgurl.zishu.me/author.png
     alt: weekly
   actions:
+    - theme: brand
+      text: 个人博客
+      link: /blog/index
     - theme: brand
       text: 阅读周刊
       link: /weekly/index
@@ -45,7 +48,6 @@ features:
 :root {
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
-
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   --vp-home-hero-image-filter: blur(40px);
 }

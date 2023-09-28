@@ -95,11 +95,30 @@ function Note() {
     { text: '学习笔记', link: '/note/index' },
     { text: '资源收藏', link: '/note/collection' },
     {
+      text: '前端基础知识',
+      collapsed: false,
+      items: [
+        { text: 'HTML事件属性--DOM', link: '/note/frontend/dom' },
+        { text: 'js基本语法', link: '/note/frontend/jsbasicsyntax' },
+        { text: '函数、变量和方法', link: '/note/frontend/jsfunction' },
+        { text: '文档对象模型', link: '/note/frontend/documentobjectmodel' },
+        { text: 'getElementBy和querySelector', link: '/note/frontend/getElementBy' },
+        { text: '有关js函数，方法的一些补充总结', link: '/note/frontend/typeofdata' },
+        { text: '事件监听函数，以及事件的捕获和冒泡机制', link: '/note/frontend/eventlistening' },
+        { text: '在js中运算不能随便把value属性定义成变量', link: '/note/frontend/value' },
+        { text: 'webpack 安装配置指令', link: '/note/frontend/webpack' },
+        { text: 'webpack 的核心概念和构建流程', link: '/note/frontend/webpack_build' },
+      ]
+    },
+    {
       text: 'Vue',
       collapsed: false,
       items: [
         { text: 'vue 相关资源', link: '/note/vue/index' },
         { text: 'VitePress 文档', link: '/note/vue/vitepress' },
+        { text: 'vue使用cli脚手架构建项目工程', link: '/note/vue/vuecli' },
+        { text: 'vue实例和模板语法', link: '/note/vue/vuelearn2' },
+        { text: '生命周期', link: '/note/vue/vuelearn3' },
       ]
     },
     {
@@ -136,6 +155,7 @@ function Note() {
   ]
 }
 
+// Leetcode
 function Leetcode() {
   return [
     { text: 'Leetcode', link: '/leetcode/index' },
