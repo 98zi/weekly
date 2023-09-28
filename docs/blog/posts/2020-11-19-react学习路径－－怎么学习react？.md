@@ -1,18 +1,25 @@
-# react学习路径－－怎么学习react？
-
-2020-11-19  
-
-
+---
+slug: 23
+title: react学习路径－－怎么学习react？
+date: "2020-11-19"
+categories: 
+  - 技术
+tags: 
+  - react
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 
 转载于:[https://github.com/petehunt/react-howto](https://github.com/petehunt/react-howto)，react开源作者对于react框架的一个学习路径的建议，个人感觉还是相当不错的学习路线
 
 ---
-
 
 # 如何学习React?
 

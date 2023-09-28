@@ -1,11 +1,20 @@
-#  npm install 报错和取消本地代理的问题
-
-2021-08-19  
-
-
+---
+slug: 75
+title:  npm install 报错和取消本地代理的问题
+date: "2021-08-19"
+categories: 
+  - 技术
+tags: 
+  - 报错
+  - npm
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

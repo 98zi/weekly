@@ -1,10 +1,12 @@
-#  hugo 一键打包并上传 github
-
-2022-10-14  
-
-
 ---
-
+slug: 170
+title:  hugo 一键打包并上传 github
+date: "2022-10-14"
+categories: 
+  - 技术
+tags: 
+  - 博客
+---
 
 分享一个 hugo 一键打包并上传 github 的方法，前提是你之前上传过 GitHub 仓库。
 

@@ -1,11 +1,20 @@
-# 在vue中制作canvas波浪图
-
-2022-03-29  
-
-
+---
+slug: 111
+title: 在vue中制作canvas波浪图
+date: "2022-03-29"
+categories: 
+  - 技术
+tags: 
+  - vue
+  - canvas
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

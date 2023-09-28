@@ -1,10 +1,12 @@
-# GitHub生成一个新的ssh密钥
-
-2023-03-09  
-
-
 ---
-
+slug: 187
+title: GitHub生成一个新的ssh密钥
+date: "2023-03-09"
+categories: 
+  - 技术
+tags: 
+  - Github
+---
 
 要在GitHub上生成新的SSH密钥，请按照以下步骤操作：
 

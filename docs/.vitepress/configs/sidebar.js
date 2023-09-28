@@ -121,7 +121,14 @@ function Note() {
       text: '配置',
       collapsed: false,
       items: [
-        { text: 'hugo 配置', link: '/config/node/hugo' },
+        { text: 'hugo 配置', link: '/note/config/hugo' },
+      ]
+    },
+    {
+      text: 'Python',
+      collapsed: false,
+      items: [
+        { text: '批量替换文件名称', link: '/note/python/批量替换文件名称' },
       ]
     },
   ]

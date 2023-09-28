@@ -1,11 +1,19 @@
-# 使用宝塔面板安装 autoPicCdn 图床工具
-
-2021-02-25  
-
-
+---
+slug: 51
+title: 使用宝塔面板安装 autoPicCdn 图床工具
+date: "2021-02-25"
+categories: 
+  - 技术
+tags: 
+  - 工具
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

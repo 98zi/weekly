@@ -1,11 +1,19 @@
-# hugo 如何使用 Cusdis ?
-
-2021-09-16  
-
-
+---
+slug: 77
+title: hugo 如何使用 Cusdis ?
+date: "2021-09-16"
+categories: 
+  - 技术
+tags: 
+  - 博客
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

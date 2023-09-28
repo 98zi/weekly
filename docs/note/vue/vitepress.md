@@ -1,3 +1,7 @@
+---
+layout: foo
+---
+
 # VitePress 文档
 
 ---

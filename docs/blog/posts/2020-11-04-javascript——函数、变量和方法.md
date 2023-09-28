@@ -1,11 +1,19 @@
-# javascript——函数、变量和方法
-
-2020-11-04  
-
-
+---
+slug: 13
+title: javascript——函数、变量和方法
+date: "2020-11-04"
+categories: 
+  - 技术
+tags: 
+  - 笔记
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

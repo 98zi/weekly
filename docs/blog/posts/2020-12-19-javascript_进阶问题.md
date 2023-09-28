@@ -1,11 +1,19 @@
-# javascript 进阶问题
-
-2020-12-19  
-
-
+---
+slug: 36
+title: javascript 进阶问题
+date: "2020-12-19"
+categories: 
+  - 技术
+tags: 
+  - js
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

@@ -1,14 +1,25 @@
-# Bitwarden / Vaultwarden  
 ---
- 密码管理工具
+slug: 203
+title: Bitwarden / Vaultwarden 密码管理工具
+date: "2023-07-27"
+categories: 
+  - 技术
+tags:
+  - 密码管理
+  - Bitwarden
+  - Vaultwarden
+---
 
-2023-07-27  
+# {{ $frontmatter.title }}
 
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
 
 ---
 
 
-### 1.介绍
+
+
+## 1.介绍
 
 Bitwarden 是一款自由且开源的密码管理服务，用户可在加密的保管库中存储敏感信息。Bitwarden 平台提供有多种客户端应用程序，包括网页用户界面、桌面应用，浏览器扩展、移动应用以及命令行界面。Bitwarden 提供云端托管服务，并支持自行部署解决方案。
 
@@ -20,7 +31,7 @@ https://bitwarden.com/
 
 ![](https://imgurl.zishu.me/images/2023/64c2607587a9a.png)
 
-### 2.部署
+## 2.部署
 
 先在服务器执行指令。
 

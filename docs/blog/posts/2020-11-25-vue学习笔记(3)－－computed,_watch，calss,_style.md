@@ -1,11 +1,20 @@
-# vue学习笔记(3)－－computed, watch，calss, style
-
-2020-11-25  
-
-
+---
+slug: 29
+title: vue学习笔记(3)－－computed, watch，calss, style
+date: "2020-11-25"
+categories: 
+  - 技术
+tags: 
+  - vue
+  - 笔记
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

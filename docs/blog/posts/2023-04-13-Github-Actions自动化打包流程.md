@@ -1,10 +1,12 @@
-# Github Actions 自动化打包流程
-
-2023-04-13  
-
-
 ---
-
+slug: 192
+title: Github Actions 自动化打包流程
+date: "2023-04-13"
+categories: 
+  - 技术
+tags: 
+  - Github Actions
+---
 
 Github Actions 监听仓库 commit 事件，然后执行自动化打包流程，并通过第三方平台自动部署，发布非常方便。
 

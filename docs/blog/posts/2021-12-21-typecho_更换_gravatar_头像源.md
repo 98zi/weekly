@@ -1,7 +1,18 @@
-# typecho 更换 gravatar 头像源
+---
+slug: 92
+title: typecho 更换 gravatar 头像源
+date: "2021-12-21"
+categories: 
+  - 技术
+tags: 
+  - typecho
+  - gravatar
+---
 
-2021-12-21  
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
 
 ---
 

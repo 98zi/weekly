@@ -1,11 +1,20 @@
-# 基于 React 的富文本编辑器－－Braft Editor
-
-2021-01-07  
-
-
+---
+slug: 44
+title: 基于 React 的富文本编辑器－－Braft Editor
+date: "2021-01-07"
+categories: 
+  - 技术
+tags: 
+  - react
+  - 组件
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

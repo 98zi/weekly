@@ -7,8 +7,10 @@
   "homepage": "https://weekly.zishu.me",
   "author": "98zi",
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
+    "dev": "node lc/read.js && vitepress dev docs",
+    "build": "node lc/read.js && node lc/getAcRecord.mjs && vitepress build docs",
+    "ac": "node lc/getAcRecord.mjs",
+    "rd": "node lc/read.js",
     "serve": "vitepress serve docs"
   },
   "devDependencies": {
@@ -16,6 +18,10 @@
     "vitepress-plugin-search": "^1.0.4-alpha.20"
   },
   "dependencies": {
-    "medium-zoom": "^1.0.8"
+    "axios": "^0.27.2",
+    "gitalk": "^1.8.0",
+    "js-yaml": "^4.1.0",
+    "ml-heatmap": "^0.0.6",
+    "moment": "^2.29.4"
   }
 }

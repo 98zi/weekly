@@ -1,11 +1,19 @@
-# getElementBy系列和querySelector系列的区别
-
-2020-11-16  
-
-
+---
+slug: 19
+title: getElementBy系列和querySelector系列的区别
+date: "2020-11-16"
+categories: 
+  - 技术
+tags: 
+  - 笔记
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 

@@ -1,11 +1,19 @@
-# js奇怪的知识--console.table
-
-2021-11-04  
-
-
+---
+slug: 81
+title: js奇怪的知识--console.table
+date: "2021-11-04"
+categories: 
+  - 技术
+tags: 
+  - js
 ---
 
 
+# {{ $frontmatter.title }}
+
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
+---
 
 
 
@@ -36,7 +44,6 @@ PS E:\demo> node 1.js
 ![](https://imgurl.zishu.me/images/2021/11/04/5b865e6a38851240419ceb0984e6557e.png)
 
 ---
-
 
 ### 2.定义对象进行输出
 

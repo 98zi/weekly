@@ -1,14 +1,21 @@
-# 一个优雅的字体压缩解决方案 
-
-2022-05-24  
-
+---
+slug: 106
+title: 一个优雅的字体压缩解决方案fonttools
+date: "2022-05-24"
+categories: 
+  - 技术
+tags: 
+  - 字体
 ---
 
 
+# {{ $frontmatter.title }}
 
-分享一个 python 的库 
+发布于 {{ $frontmatter.date}} -- [前往评论](https://zishu.me)
+
 ---
-fonttools，针对字体文件进行处理非常方便。
+
+分享一个 python 的库 ---fonttools，针对字体文件进行处理非常方便。
 
 ### 下载
 需要先在电脑上下载 python 环境，这个就不多说了。
