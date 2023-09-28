@@ -2,6 +2,7 @@ export default {
   '/weekly/': Weekly(),
   '/wiki/': Wiki(),
   '/note/': Note(),
+  '/leetcode': Leetcode(),
 }
 
 // 周刊
@@ -130,6 +131,19 @@ function Note() {
       collapsed: false,
       items: [
         { text: '批量替换文件名称', link: '/note/python/批量替换文件名称' },
+      ]
+    },
+  ]
+}
+
+function Leetcode() {
+  return [
+    { text: 'Leetcode', link: '/leetcode/index' },
+    {
+      text: '题目',
+      collapsed: false,
+      items: [
+        { text: '1.合并两个有序数组', link: '/leetcode/2023-09-28' },
       ]
     },
   ]
