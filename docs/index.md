@@ -2,23 +2,26 @@
 layout: home
 
 hero:
-  name: weekly / wiki
-  text: 一个周刊，记录有趣的软件和网站。
-  tagline: 并且存储了一些代码资源，点击 Wiki 即可搜索。
+  name: 不如吃茶去
+  text:  个人博客，周刊，学习笔记等，记录有趣的软件和网站。
+  tagline: blog / weekly / note / wiki
   image:
     # src: https://vitepress.dev/vitepress-logo-large.webp
     src: https://imgurl.zishu.me/author.png
     alt: weekly
   actions:
     - theme: brand
-      text: 阅读周刊
-      link: /guide/index.md
+      text: 个人博客
+      link: /blog/index
     - theme: brand
-      text: Docs 文档
-      link: /docs/index.md
+      text: 阅读周刊
+      link: /weekly/index
+    - theme: alt
+      text: 学习笔记
+      link: /note/index
     - theme: alt
       text: 搜索 Wiki
-      link: /wiki/index.md
+      link: /wiki/index
 
 features:
   - icon: ❤️

@@ -1,0 +1,25 @@
+#  npm install 报错和取消本地代理的问题
+
+2021-08-19  
+
+
+---
+
+
+
+
+
+`npm install`下载依赖包的时候出现下面错误，请求失败。
+
+```shell
+npm ERR! FetchError: request to https://registry.npm.taobao.org/cnpm failed, reason: connect ECONNREFUSED 127.0.0.1:1181
+```
+
+调试过后发现是本地代理的问题，取消它。
+
+```shell
+npm config delete proxy
+npm config delete https-proxy
+```
+
+`npm install` 成功运行，完毕。
