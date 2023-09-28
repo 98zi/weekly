@@ -92,6 +92,7 @@ function Wiki() {
 function Note() {
   return [
     { text: '学习笔记', link: '/note/index' },
+    { text: '资源收藏', link: '/note/collection' },
     {
       text: 'Vue',
       collapsed: false,
