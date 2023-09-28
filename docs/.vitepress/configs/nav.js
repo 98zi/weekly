@@ -1,5 +1,4 @@
 export default [
-  { text: '个人博客', link: '/blog/index' },
   { text: '周刊', link: '/weekly/index' },
   { text: '学习笔记', link: '/note/index' },
   { text: 'Wiki 知识库', link: '/wiki/index' },

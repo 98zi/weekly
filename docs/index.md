@@ -3,20 +3,17 @@ layout: home
 
 hero:
   name: 不如吃茶去
-  text:  个人博客，周刊，学习笔记等，记录有趣的软件和网站。
-  tagline: blog / weekly / note / wiki
+  text:  周刊，学习笔记等，记录有趣的软件和网站。
+  tagline: weekly / note / wiki
   image:
     # src: https://vitepress.dev/vitepress-logo-large.webp
     src: https://imgurl.zishu.me/author.png
     alt: weekly
   actions:
     - theme: brand
-      text: 个人博客
-      link: /blog/index
-    - theme: brand
       text: 阅读周刊
       link: /weekly/index
-    - theme: alt
+    - theme: brand
       text: 学习笔记
       link: /note/index
     - theme: alt
