@@ -86,3 +86,12 @@
 html {
   overflow-y: scroll;
 }
+
+.task-list {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.medium-zoom-image {
+  z-index: 9999 !important;
+}

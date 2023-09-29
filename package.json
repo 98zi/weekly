@@ -16,6 +16,8 @@
     "vitepress-plugin-search": "^1.0.4-alpha.20"
   },
   "dependencies": {
+    "@giscus/vue": "^2.3.0",
+    "markdown-it-task-checkbox": "^1.0.6",
     "medium-zoom": "^1.0.8"
   }
 }

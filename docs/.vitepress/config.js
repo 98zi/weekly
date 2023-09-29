@@ -1,12 +1,26 @@
 import sidebar from './configs/sidebar';
 import nav from './configs/nav';
 
+const taskLists = require('markdown-it-task-checkbox')
+
 export default {
   title: '不如吃茶去',
   dist: '/dist',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
+  markdown: {
+    config: (md) => {
+      md.use(taskLists, { 
+        disabled: true,
+        divWrap: false,
+        divClass: 'checkbox',
+        idPrefix: 'cbx_',
+        ulClass: 'task-list',
+        liClass: 'task-list-item',
+      })
+    }
+  },
   themeConfig: {
     siteTitle: '不如吃茶去💡',
     sidebar,
@@ -15,6 +29,9 @@ export default {
       pattern: 'https://github.com/98zi/weekly/blob/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/98zi/weekly' }
+    ],
     lastUpdated: false,
     lastUpdatedText: '最后更新',
     footer: {

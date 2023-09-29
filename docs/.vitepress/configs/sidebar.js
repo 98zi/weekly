@@ -160,11 +160,12 @@ function Leetcode() {
   return [
     { text: 'Leetcode', link: '/leetcode/index' },
     {
-      text: '题目',
+      text: '每日一题',
       collapsed: false,
       items: [
         { text: '1.合并两个有序数组', link: '/leetcode/1' },
         { text: '2.移除元素', link: '/leetcode/2' },
+        { text: '3.删除有序数组中的重复项', link: '/leetcode/3' },
       ]
     },
   ]
