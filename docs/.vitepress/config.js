@@ -30,7 +30,9 @@ export default {
       text: '在 GitHub 上编辑此页'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/98zi/weekly' }
+      { icon: 'github', link: 'https://github.com/98zi/weekly' },
+      { icon: 'twitter', link: 'https://twitter.com/Anghunk520' },
+      { icon: 'discord', link: 'https://discord.gg/7u7kGgJhXF' },
     ],
     lastUpdated: false,
     lastUpdatedText: '最后更新',

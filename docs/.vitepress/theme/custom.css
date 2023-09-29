@@ -95,3 +95,15 @@ html {
 .medium-zoom-image {
   z-index: 9999 !important;
 }
+
+.vp-btn {
+  margin-top: 40px;
+}
+
+.vp-btn a {
+  color: var(--vp-c-brand-darker);
+}
+
+.vp-btn a:hover {
+  text-decoration: underline;
+}

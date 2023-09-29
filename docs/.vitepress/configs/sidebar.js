@@ -94,6 +94,7 @@ function Note() {
   return [
     { text: '学习笔记', link: '/note/index' },
     { text: '资源收藏', link: '/note/collection' },
+    { text: '我的订阅', link: '/note/rss' },
     {
       text: '前端基础知识',
       collapsed: false,

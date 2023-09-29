@@ -1,22 +1,10 @@
 <script setup>
-  import 'giscus';
+
 </script>
 
 <template>
-  <br>
-<giscus-widget
-  id="comments"
-  repo="98zi/weekly"
-  repoid="R_kgDOJWODqg="
-  category="Announcements"
-  categoryid="DIC_kwDOJWODqs4CV8b5"
-  mapping="title"
-  term="Welcome to giscus!"
-  reactionsenabled="1"
-  emitmetadata="1"
-  inputposition="top"
-  theme="light_tritanopia"
-  lang="zh-CN"
-  loading="lazy"
-></giscus-widget>
+  <div class="vp-btn">
+    <div> 🍓 欢迎前往 <a href="https://github.com/98zi/weekly/discussions" target="_blank">Github Discussions 论坛</a> 或者 <a
+        href="https://discord.gg/7u7kGgJhXF" target="_blank">Discord 聊天室</a> 进行交流。</div>
+  </div>
 </template>
