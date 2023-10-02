@@ -1,8 +1,10 @@
 # **Blogs**
 
-博客链接到原网站。
+博客链接到原网站 https://zishu.me
 
 ## **2023**
+
+2023-10-01 - [翁金线骑行](https://zishu.me/blog/209.html/)
 
 2023-09-20 - [chrome117版本隐藏所有标签按钮](https://zishu.me/blog/208.html/)
 

@@ -1,4 +1,7 @@
 export default {
+  '/blog/': [
+    { text: '归档', link: '/blog/index' },
+  ],
   '/weekly/': Weekly(),
   '/wiki/': Wiki(),
   '/note/': Note(),
@@ -167,6 +170,8 @@ function Leetcode() {
         { text: '1.合并两个有序数组', link: '/leetcode/1' },
         { text: '2.移除元素', link: '/leetcode/2' },
         { text: '3.删除有序数组中的重复项', link: '/leetcode/3' },
+        { text: '4.多数元素', link: '/leetcode/4' },
+        { text: '5.买卖股票的最佳时机', link: '/leetcode/5' },
       ]
     },
   ]
