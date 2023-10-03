@@ -172,6 +172,7 @@ function Leetcode() {
         { text: '3.删除有序数组中的重复项', link: '/leetcode/3' },
         { text: '4.多数元素', link: '/leetcode/4' },
         { text: '5.买卖股票的最佳时机', link: '/leetcode/5' },
+        { text: '6.删除有序数组中的重复项2', link: '/leetcode/6' },
       ]
     },
   ]

@@ -53,7 +53,7 @@
 */
 
 .dark .vp-doc a,
-.dark .vp-doc a>code,
+.dark .vp-doc a > code,
 .dark .VPNavBarMenuLink.VPNavBarMenuLink:hover,
 .dark .VPNavBarMenuLink.VPNavBarMenuLink.active,
 .dark .link.link:hover,
@@ -64,7 +64,7 @@
 }
 
 .dark .vp-doc a:hover,
-.dark .vp-doc a>code:hover {
+.dark .vp-doc a > code:hover {
   color: var(--vp-c-brand-lightest);
   opacity: 1;
 }
@@ -106,4 +106,10 @@ html {
 
 .vp-btn a:hover {
   text-decoration: underline;
+}
+
+.vp-btn hr {
+  margin: 16px 0;
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
 }
