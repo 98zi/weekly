@@ -1,10 +1,10 @@
 {
-  "name": "weekly",
+  "name": "blog",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/98zi/weekly",
-  "homepage": "https://weekly.zishu.me",
+  "repository": "https://github.com/98zi/blog",
+  "homepage": "https://zishu.me",
   "author": "98zi",
   "scripts": {
     "dev": "vitepress dev docs",

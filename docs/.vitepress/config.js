@@ -26,11 +26,11 @@ export default {
     sidebar,
     nav,
     editLink: {
-      pattern: 'https://github.com/98zi/weekly/blob/main/docs/:path',
+      pattern: 'https://github.com/98zi/blog/blob/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/98zi/weekly' },
+      { icon: 'github', link: 'https://github.com/98zi/blog' },
       { icon: 'twitter', link: 'https://twitter.com/Anghunk520' },
       { icon: 'discord', link: 'https://discord.gg/7u7kGgJhXF' },
     ],
