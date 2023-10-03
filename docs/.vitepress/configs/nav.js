@@ -18,7 +18,6 @@ export default [
     text: '周边',
     items: [
       { text: '周刊投稿', link: 'https://github.com/98zi/blog/issues' },
-      { text: '个人博客', link: 'https://zishu.me' },
       { text: '贡献', link: 'https://github.com/98zi/blog/blob/main/contributing.md' },
     ]
   },
