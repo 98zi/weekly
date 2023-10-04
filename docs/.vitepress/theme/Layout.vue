@@ -1,12 +1,12 @@
 <script setup>
   import DefaultTheme from 'vitepress/theme'
-  import comment from '../components/comment.vue'
+  import footerDoc from '../components/footerDoc.vue'
 </script>
 
 <template>
   <DefaultTheme.Layout>
     <template #doc-after>
-      <comment />
+      <footerDoc />
     </template>
   </DefaultTheme.Layout>
 </template>
