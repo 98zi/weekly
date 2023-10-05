@@ -174,6 +174,7 @@ function Leetcode() {
         { text: '5.买卖股票的最佳时机', link: '/leetcode/5' },
         { text: '6.删除有序数组中的重复项2', link: '/leetcode/6' },
         { text: '7.买卖股票的最佳时机2', link: '/leetcode/7' },
+        { text: '8.罗马数字转整数', link: '/leetcode/8' },
       ]
     },
   ]

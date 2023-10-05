@@ -38,7 +38,7 @@ export default {
     lastUpdatedText: '最后更新',
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2020 - 2023'
+      copyright: 'Copyright © 2020 - 2023 子舒'
     },
     search: {
       provider: 'local',
