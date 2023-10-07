@@ -5,6 +5,7 @@ export default {
   '/weekly/': Weekly(),
   '/wiki/': Wiki(),
   '/note/': Note(),
+  '/nav': Nav(),
   '/leetcode': Leetcode(),
 }
 
@@ -97,8 +98,6 @@ function Wiki() {
 function Note() {
   return [
     { text: '学习笔记', link: '/note/index' },
-    { text: '资源收藏', link: '/note/collection' },
-    { text: '我的订阅', link: '/note/rss' },
     {
       text: '前端基础知识',
       collapsed: false,
@@ -176,6 +175,22 @@ function Leetcode() {
         { text: '6.删除有序数组中的重复项2', link: '/leetcode/6' },
         { text: '7.买卖股票的最佳时机2', link: '/leetcode/7' },
         { text: '8.罗马数字转整数', link: '/leetcode/8' },
+      ]
+    },
+  ]
+}
+
+// Nav
+function Nav() {
+  return [
+    { text: '导航网址', link: '/nav/index' },
+    {
+      text: '分类',
+      collapsed: false,
+      items: [
+        { text: '我的订阅', link: '/nav/rss' },
+        { text: '效率工具', link: '/nav/tools' },
+        { text: '社区论坛', link: '/nav/bbs' },
       ]
     },
   ]
