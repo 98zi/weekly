@@ -9,6 +9,10 @@
   z-index: 21;
 }
 
+.VPNav {
+  z-index: 22;
+}
+
 /* SideBar scrollbar */
 .VPSidebar::-webkit-scrollbar {
   display: none;
@@ -53,7 +57,7 @@
 */
 
 .dark .vp-doc a,
-.dark .vp-doc a > code,
+.dark .vp-doc a>code,
 .dark .VPNavBarMenuLink.VPNavBarMenuLink:hover,
 .dark .VPNavBarMenuLink.VPNavBarMenuLink.active,
 .dark .link.link:hover,
@@ -64,7 +68,7 @@
 }
 
 .dark .vp-doc a:hover,
-.dark .vp-doc a > code:hover {
+.dark .vp-doc a>code:hover {
   color: var(--vp-c-brand-lightest);
   opacity: 1;
 }
@@ -93,9 +97,9 @@ html {
   padding-left: 0 !important;
 }
 
-.medium-zoom-image {
+/* .medium-zoom-image {
   z-index: 9999 !important;
-}
+} */
 
 .vp-btn {
   margin-top: 40px;
