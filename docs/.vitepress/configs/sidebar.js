@@ -1,6 +1,7 @@
 export default {
   '/blog/': [
     { text: '博客归档', link: '/blog/index' },
+    { text: '关于我', link: '/blog/about' },
   ],
   '/weekly/': Weekly(),
   '/wiki/': Wiki(),

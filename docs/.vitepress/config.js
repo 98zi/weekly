@@ -27,7 +27,7 @@ export default {
     nav,
     editLink: {
       pattern: 'https://github.com/98zi/blog/blob/main/docs/:path',
-      text: '在 GitHub 上评论本文'
+      text: '在 GitHub 上编辑此文'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/98zi/blog' },

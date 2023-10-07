@@ -4,12 +4,7 @@ export default [
   {
     text: '文档笔记',
     items: [
-      {
-        items: [
-          { text: '学习笔记', link: '/note/index' },
-          { text: '我的订阅', link: '/note/rss' },
-        ]
-      },
+      { text: '学习笔记', link: '/note/index' },
       { text: 'Leetcode 刷题', link: '/leetcode/index' },
     ]
   },
