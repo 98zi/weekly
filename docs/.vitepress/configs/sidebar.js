@@ -21,6 +21,7 @@ function Weekly() {
       text: '发布历史',
       collapsed: false,
       items: [
+        { text: '#21 湘湖度假', link: '/weekly/posts/21-湘湖度假' },
         { text: '#20 亚运灯光', link: '/weekly/posts/20-亚运灯光' },
         { text: '#19 九堡大桥', link: '/weekly/posts/19-九堡大桥' },
         { text: '#18 钱塘夜色', link: '/weekly/posts/18-钱塘夜色' },
