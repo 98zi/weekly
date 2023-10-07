@@ -144,10 +144,12 @@ function Note() {
       ]
     },
     {
-      text: '配置',
+      text: '插件配置',
       collapsed: false,
       items: [
         { text: 'hugo 配置', link: '/note/config/hugo' },
+        { text: 'vitepress-giscus', link: '/note/config/vitepress-giscus' },
+        { text: 'vitepress-折叠代码段', link: '/note/config/vitepress-codeblocks-fold' },
       ]
     },
     {

@@ -1,24 +1,30 @@
 import DefaultTheme from 'vitepress/theme'
-import giscusTalk from 'vitepress-plugin-comment-with-giscus';
+
+// giscus评论
+import giscusTalk from 'vitepress-plugin-comment-with-giscus'; 
 import { useData, useRoute } from 'vitepress';
 
-import './custom.css'
+// 引入组件
+import './custom.css';
+import Layout from './Layout.vue';
 
-import Layout from './Layout.vue'
+// 图片放大
+import { onMounted, watch, nextTick } from 'vue';
+import mediumZoom from 'medium-zoom';
 
-import { onMounted, watch, nextTick } from 'vue'
-import mediumZoom from 'medium-zoom'
+// 代码块添加折叠功能
+import codeblocksFold from 'vitepress-plugin-codeblocks-fold';
+import 'vitepress-plugin-codeblocks-fold/style/index.scss';
 
 export default {
   ...DefaultTheme,
   Layout,
   enhanceApp(ctx) {
     DefaultTheme.enhanceApp(ctx);
-    // ...
   },
   setup() {
-    const route = useRoute();
     const { frontmatter } = useData();
+    const route = useRoute();
     const initZoom = () => {
       mediumZoom('.main img', { background: 'var(--vp-c-bg)' })
     }
@@ -44,5 +50,7 @@ export default {
     }, {
       frontmatter, route
     });
+
+    codeblocksFold({ route, frontmatter }, true, 600);
   },
 }
