@@ -800,10 +800,10 @@ vitepress-plugin-codeblocks-fold@^1.2.27:
   resolved "https://registry.npmjs.org/vitepress-plugin-codeblocks-fold/-/vitepress-plugin-codeblocks-fold-1.2.27.tgz"
   integrity sha512-zFZ3Brzbz3DiAG9y/eUp1/Vbkops7HkwRha64JD90xkZ30iNvW+9cDpiu1bLPOnvqBG/xx8RmxePPnJuRYPUdQ==
 
-vitepress-plugin-comment-with-giscus@^1.1.7:
-  version "1.1.7"
-  resolved "https://registry.npmjs.org/vitepress-plugin-comment-with-giscus/-/vitepress-plugin-comment-with-giscus-1.1.7.tgz"
-  integrity sha512-GA+GTVRAG3Li1Rmuqhd0sqZ7RFZTn5eGNcZcs89sI1Z15EK0EGeJ+i4Fz+cszSRqJE79QsKrGky5VJAgsiAIiw==
+vitepress-plugin-comment-with-giscus@^1.1.8:
+  version "1.1.8"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-comment-with-giscus/-/vitepress-plugin-comment-with-giscus-1.1.8.tgz#2a2a06352137415f6aad39305cc63f72daab5bf3"
+  integrity sha512-oxu383ce5x13E4pBhxGbiEGavvh4S1JoP6pAZoO3dSDJqDJ010rI8rS53mTSiS+VDtV0dC+pZ8Q0UllK8oIYjw==
   dependencies:
     "@giscus/vue" "^2.2.8"
 

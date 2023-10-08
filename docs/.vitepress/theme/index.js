@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 
 // giscus评论
-import giscusTalk from 'vitepress-plugin-comment-with-giscus'; 
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 
 // 引入组件
@@ -49,7 +49,8 @@ export default {
       theme: "light_tritanopia",
     }, {
       frontmatter, route
-    });
+    },
+      true);
 
     codeblocksFold({ route, frontmatter }, true, 600);
   },

@@ -1,4 +1,8 @@
-# About
+---
+comment: true
+---
+
+# 关于我
 
 ---
 
