@@ -194,6 +194,7 @@ function Nav() {
         { text: '我的订阅', link: '/nav/rss' },
         { text: '效率工具', link: '/nav/tools' },
         { text: '社区论坛', link: '/nav/bbs' },
+        { text: '娱乐类', link: '/nav/entertainment' },
       ]
     },
   ]
