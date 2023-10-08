@@ -8,7 +8,7 @@ export default [
       { text: 'Leetcode 刷题', link: '/leetcode/index' },
     ]
   },
-  { text: '导航网址', link: '/nav/index' },
+  { text: '资源导航', link: '/nav/index' },
   { text: 'Wiki 知识库', link: '/wiki/index' },
   {
     text: '周边',
