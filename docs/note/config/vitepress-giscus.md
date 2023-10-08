@@ -6,7 +6,7 @@ Github 仓库: https://github.com/T-miracle/vitepress-plugin-comment-with-giscus
 
 ## 1.安装
 
-```shell
+```shell {2,4}
 # npm
 npm i vitepress-plugin-comment-with-giscus
 # yarn
