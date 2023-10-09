@@ -11,14 +11,17 @@ hero:
     alt: weekly
   actions:
     - theme: brand
-      text: 学习笔记
-      link: /note/index
-    - theme: brand
       text: 阅读周刊
       link: /weekly/index
+    - theme: brand
+      text: 学习笔记
+      link: /note/index
     - theme: alt
       text: 搜索 Wiki
       link: /wiki/index
+    - theme: brand
+      text: 个人博客
+      link: https://zishu.me/
 
 features:
   - icon: ❤️

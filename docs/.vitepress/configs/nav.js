@@ -16,4 +16,5 @@ export default [
       { text: '贡献', link: 'https://github.com/98zi/weekly-note/blob/main/contributing.md' },
     ]
   },
+  { text: '个人博客', link: 'https://zishu.me' },
 ]
