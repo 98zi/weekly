@@ -1,9 +1,9 @@
 {
-  "name": "blog",
+  "name": "weekly-note",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/98zi/blog",
+  "repository": "https://github.com/98zi/weekly-note",
   "homepage": "https://zishu.me",
   "author": "98zi",
   "scripts": {

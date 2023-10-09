@@ -8,11 +8,11 @@ comment: false
 
 <div class="flex">
 
-![GitHub license](https://img.shields.io/github/license/98zi/blog) 
-![GitHub Repo stars](https://img.shields.io/github/stars/98zi/blog) 
-![GitHub issues](https://img.shields.io/github/issues/98zi/blog) 
-![GitHub forks](https://img.shields.io/github/forks/98zi/blog) 
-![GitHub commit](https://img.shields.io/github/commit-activity/t/98zi/blog) 
+![GitHub license](https://img.shields.io/github/license/98zi/weekly-note) 
+![GitHub Repo stars](https://img.shields.io/github/stars/98zi/weekly-note) 
+![GitHub issues](https://img.shields.io/github/issues/98zi/weekly-note) 
+![GitHub forks](https://img.shields.io/github/forks/98zi/weekly-note) 
+![GitHub commit](https://img.shields.io/github/commit-activity/t/98zi/weekly-note) 
 ![GitHub followers](https://img.shields.io/github/followers/98zi) 
 ![Discord](https://img.shields.io/discord/1126519222172925952) 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/6660863b-4f07-4bb9-aea1-1936b1a85ecf/deploy-status) 
@@ -24,4 +24,4 @@ comment: false
 
 [>>阅读最新一期](./posts/21-湘湖度假.md)
 
-欢迎投稿或者发表其他看法: https://github.com/98zi/blog/issues
+欢迎投稿或者发表其他看法: https://github.com/98zi/weekly-note/issues

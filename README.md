@@ -1,6 +1,6 @@
 ## blog
 
-![GitHub license](https://img.shields.io/github/license/98zi/blog) ![GitHub Repo stars](https://img.shields.io/github/stars/98zi/blog) ![GitHub issues](https://img.shields.io/github/issues/98zi/blog) ![GitHub forks](https://img.shields.io/github/forks/98zi/blog) ![GitHub commit](https://img.shields.io/github/commit-activity/t/98zi/blog) ![GitHub followers](https://img.shields.io/github/followers/98zi)
+![GitHub license](https://img.shields.io/github/license/98zi/weekly-note) ![GitHub Repo stars](https://img.shields.io/github/stars/98zi/weekly-note) ![GitHub issues](https://img.shields.io/github/issues/98zi/weekly-note) ![GitHub forks](https://img.shields.io/github/forks/98zi/weekly-note) ![GitHub commit](https://img.shields.io/github/commit-activity/t/98zi/weekly-note) ![GitHub followers](https://img.shields.io/github/followers/98zi)
 
 基于 vitepress 程序部署的网站。
 

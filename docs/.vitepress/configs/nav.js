@@ -13,8 +13,8 @@ export default [
   {
     text: '周边',
     items: [
-      { text: '周刊投稿', link: 'https://github.com/98zi/blog/issues' },
-      { text: '贡献', link: 'https://github.com/98zi/blog/blob/main/contributing.md' },
+      { text: '周刊投稿', link: 'https://github.com/98zi/weekly-note/issues' },
+      { text: '贡献', link: 'https://github.com/98zi/weekly-note/blob/main/contributing.md' },
     ]
   },
 ]
