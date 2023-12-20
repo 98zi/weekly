@@ -1,9 +1,9 @@
 {
-  "name": "weekly-note",
+  "name": "weekly",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "repository": "https://github.com/98zi/weekly-note",
+  "repository": "https://github.com/98zi/weekly",
   "homepage": "https://zishu.me",
   "author": "98zi",
   "scripts": {
@@ -20,6 +20,7 @@
     "markdown-it-task-checkbox": "^1.0.6",
     "medium-zoom": "^1.0.8",
     "vitepress-plugin-codeblocks-fold": "^1.2.27",
-    "vitepress-plugin-comment-with-giscus": "^1.1.8"
+    "vitepress-plugin-comment-with-giscus": "^1.1.8",
+    "yarn": "^1.22.21"
   }
 }

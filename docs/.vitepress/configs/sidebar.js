@@ -1,8 +1,6 @@
 export default {
-  '/weekly/': Weekly(),
-  '/wiki/': Wiki(),
+  // '/weekly/': Weekly(),
   '/note/': Note(),
-  '/nav': Nav(),
   '/leetcode': Leetcode(),
 }
 
@@ -19,73 +17,37 @@ function Weekly() {
       text: '发布历史',
       collapsed: false,
       items: [
-        { text: '#21 湘湖度假', link: '/weekly/posts/21-湘湖度假' },
-        { text: '#20 亚运灯光', link: '/weekly/posts/20-亚运灯光' },
-        { text: '#19 九堡大桥', link: '/weekly/posts/19-九堡大桥' },
-        { text: '#18 钱塘夜色', link: '/weekly/posts/18-钱塘夜色' },
-        { text: '#17 音频播客新闻日志等推荐', link: '/weekly/posts/17-音频播客新闻日志等推荐' },
-        { text: '#16 好用的图床管理工具', link: '/weekly/posts/16-好用的图床管理工具' },
-        { text: '#15 提高生产力的脚本工具', link: '/weekly/posts/15-提高生产力的脚本工具' },
-        { text: '#14 Github工具', link: '/weekly/posts/14-Github工具' },
-        { text: '#13 热爱生活和未来', link: '/weekly/posts/13-热爱生活和未来' },
-        { text: '#12 提升chatGPT使用体验', link: '/weekly/posts/12-提升chatGPT使用体验' },
-        { text: '#11 追求技术实用主义', link: '/weekly/posts/11-追求技术实用主义' },
-        { text: '#10 一款极简开源的输入法', link: '/weekly/posts/10-一款极简开源的输入法' },
-        { text: '#9 openai封禁了一批账号', link: '/weekly/posts/9-openai封禁了一批账号' },
-        { text: '#8 一个ChatGPT应用平台', link: '/weekly/posts/8-一个ChatGPT应用平台' },
-        { text: '#7 一个Notion风格的编辑器', link: '/weekly/posts/7-一个Notion风格的编辑器' },
-        { text: '#6 使用Notion搭建网站的方案', link: '/weekly/posts/6-使用Notion搭建网站的方案' },
-        { text: '#5 使用css写出精致的UI小组件', link: '/weekly/posts/5-使用css写出精致的UI小组件' },
-        { text: '#4 chatGPT3.5API发布', link: '/weekly/posts/4-chatGPT3.5API发布' },
-        { text: '#3 建站能用到的免费工具', link: '/weekly/posts/3-建站能用到的免费工具' },
-        { text: '#2 如何使用本项目搭建网站？', link: '/weekly/posts/2-如何使用本项目搭建网站？' },
-        { text: '#1 hello,world！这是一个新的开始', link: '/weekly/posts/1-hello,world！这是一个新的开始' },
-      ]
-    },
-  ]
-}
-
-// Wiki
-function Wiki() { 
-  return [
-    {
-      text: '快速开始',
-      items: [
-        { text: '介绍', link: '/wiki/index' },
-      ]
-    },
-    {
-      text: '目录',
-      collapsed: true,
-      items: [
-        { text: 'dist-zip压缩程序', link: '/wiki/posts/dist-zip' },
-        { text: 'chrome117版本隐藏所有标签按钮', link: '/wiki/posts/chrome117版本隐藏所有标签按钮' },
-        { text: 'class类', link: '/wiki/posts/class类' },
-        { text: '网址收藏', link: '/wiki/posts/网址收藏' },
-        { text: '正则', link: '/wiki/posts/正则' },
-        { text: 'scss', link: '/wiki/posts/scss' },
-        { text: '点击复制功能', link: '/wiki/posts/点击复制功能' },
-        { text: '二级导航手风琴', link: '/wiki/posts/二级导航手风琴' },
-        { text: '计算时间差', link: '/wiki/posts/计算时间差' },
-        { text: '浏览器', link: '/wiki/posts/浏览器' },
-        { text: '生成随机颜色', link: '/wiki/posts/生成随机颜色' },
-        { text: '使用正则检测邮箱格式', link: '/wiki/posts/使用正则检测邮箱格式' },
-        { text: '图片高度与宽度保持一致', link: '/wiki/posts/图片高度与宽度保持一致' },
-        { text: '图片滚动放大缩小拖拽', link: '/wiki/posts/图片滚动放大缩小拖拽' },
-        { text: '图片生成canvas图', link: '/wiki/posts/图片生成canvas图' },
-        { text: '原生事件', link: '/wiki/posts/原生事件' },
-        { text: '自定义鼠标右键', link: '/wiki/posts/自定义鼠标右键' },
-        { text: 'css常用代码', link: '/wiki/posts/css常用代码' },
-        { text: 'console', link: '/wiki/posts/console' },
-        { text: 'el-table', link: '/wiki/posts/el-table' },
-        { text: 'ios', link: '/wiki/posts/ios' },
-        { text: 'isMob-isIos', link: '/wiki/posts/isMob-isIos' },
-        { text: 'jq相关方法', link: '/wiki/posts/jq相关方法' },
-        { text: 'js添加类名', link: '/wiki/posts/js添加类名' },
-        { text: 'swiper问题', link: '/wiki/posts/swiper问题' },
-        { text: 'toast弹窗配置', link: '/wiki/posts/toast弹窗配置' },
-        { text: 'vanilla-lazyload使用方法', link: '/wiki/posts/vanilla-lazyload使用方法' },
-        { text: 'vue常用代码', link: '/wiki/posts/vue常用代码' },
+        { text: '第31 期 - 子舒周刊 23/12/14', link: '/weekly/31' },
+        { text: '第30 期 - 子舒周刊 23/12/07', link: '/weekly/30' },
+        { text: '第29 期 - 子舒周刊 23/11/30', link: '/weekly/29' },
+        { text: '第28 期 - 子舒周刊 23/11/23', link: '/weekly/28' },
+        { text: '第27 期 - 子舒周刊 23/11/16', link: '/weekly/27' },
+        { text: '第26 期 - 子舒周刊 23/11/09', link: '/weekly/26' },
+        { text: '第25 期 - 子舒周刊 23/11/02', link: '/weekly/25' },
+        { text: '第24 期 - 子舒周刊 23/10/26', link: '/weekly/24' },
+        { text: '第23 期 - 子舒周刊 23/10/19', link: '/weekly/23' },
+        { text: '第22 期 - 子舒周刊 23/10/12', link: '/weekly/22' },
+        { text: '第21 期 - 子舒周刊 23/10/03', link: '/weekly/21' },
+        { text: '第20 期 - 子舒周刊 23/09/22', link: '/weekly/20' },
+        { text: '第19 期 - 子舒周刊 23/06/26', link: '/weekly/19' },
+        { text: '第18 期 - 子舒周刊 23/06/19', link: '/weekly/18' },
+        { text: '第17 期 - 子舒周刊 23/06/12', link: '/weekly/17' },
+        { text: '第16 期 - 子舒周刊 23/06/03', link: '/weekly/16' },
+        { text: '第15 期 - 子舒周刊 23/05/26', link: '/weekly/15' },
+        { text: '第14 期 - 子舒周刊 23/05/19', link: '/weekly/14' },
+        { text: '第13 期 - 子舒周刊 23/05/12', link: '/weekly/13' },
+        { text: '第12 期 - 子舒周刊 23/05/05', link: '/weekly/12' },
+        { text: '第11 期 - 子舒周刊 23/04/29', link: '/weekly/12' },
+        { text: '第10 期 - 子舒周刊 23/04/22', link: '/weekly/10' },
+        { text: '第9 期 - 子舒周刊 23/04/15', link: '/weekly/9' },
+        { text: '第8 期 - 子舒周刊 23/04/08', link: '/weekly/8' },
+        { text: '第7 期 - 子舒周刊 23/04/02', link: '/weekly/7' },
+        { text: '第6 期 - 子舒周刊 23/03/26', link: '/weekly/6' },
+        { text: '第5 期 - 子舒周刊 23/03/19', link: '/weekly/5' },
+        { text: '第4 期 - 子舒周刊 23/03/12', link: '/weekly/4' },
+        { text: '第3 期 - 子舒周刊 23/03/05', link: '/weekly/3' },
+        { text: '第2 期 - 子舒周刊 23/02/28', link: '/weekly/2' },
+        { text: '第1 期 - 子舒周刊 23/02/21', link: '/weekly/1' },
       ]
     },
   ]
@@ -175,24 +137,6 @@ function Leetcode() {
         { text: '7.买卖股票的最佳时机2', link: '/leetcode/7' },
         { text: '8.罗马数字转整数', link: '/leetcode/8' },
         { text: '9.转轮数组', link: '/leetcode/9' },
-      ]
-    },
-  ]
-}
-
-// Nav
-function Nav() {
-  return [
-    { text: '资源导航', link: '/nav/index' },
-    {
-      text: '分类',
-      collapsed: false,
-      items: [
-        { text: '我的订阅', link: '/nav/rss' },
-        { text: '效率工具', link: '/nav/tools' },
-        { text: '社区论坛', link: '/nav/bbs' },
-        { text: '软件资源', link: '/nav/software' },
-        { text: '娱乐类', link: '/nav/entertainment' },
       ]
     },
   ]

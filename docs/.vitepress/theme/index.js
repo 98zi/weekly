@@ -38,7 +38,7 @@ export default {
 
     // Obtain configuration from: https://giscus.app/
     giscusTalk({
-      repo: '98zi/weekly-note',
+      repo: '98zi/weekly',
       repoId: 'R_kgDOJWODqg',
       category: 'Announcements',
       categoryId: 'DIC_kwDOJWODqs4CV8b5',

@@ -1,5 +1,5 @@
 export default [
-  { text: '周刊', link: '/weekly/index' },
+  // { text: '周刊', link: '/weekly/index' },
   {
     text: '文档笔记',
     items: [
@@ -7,13 +7,11 @@ export default [
       { text: 'Leetcode 刷题', link: '/leetcode/index' },
     ]
   },
-  { text: '资源导航', link: '/nav/index' },
-  { text: 'Wiki 知识库', link: '/wiki/index' },
   {
     text: '周边',
     items: [
-      { text: '周刊投稿', link: 'https://github.com/98zi/weekly-note/issues' },
-      { text: '贡献', link: 'https://github.com/98zi/weekly-note/blob/main/contributing.md' },
+      { text: '周刊投稿', link: 'https://github.com/98zi/weekly/issues' },
+      { text: '贡献', link: 'https://github.com/98zi/weekly/blob/main/contributing.md' },
     ]
   },
   { text: '个人博客', link: 'https://zishu.me' },
