@@ -4,4 +4,6 @@
 
 基于 vitepress 程序部署的周刊网站。
 
-网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)
+~网站: [https://weekly.zishu.me/](https://weekly.zishu.me/)~
+
+本仓库不再更新，周刊发布到 https://zishu.me/
